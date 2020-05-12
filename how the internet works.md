@@ -84,7 +84,7 @@ fields in ip header
 - source address
 - dest address
 
-![img](https://github.com/nitishsaini706/references-images/blob/reference/ip-header.gif)
+![img](https://github.com/nitishsaini706/references-images/blob/master/ip-header.gif
 ### tcp header
 
 - source port -> port traffic originated from on the sending side.
@@ -100,7 +100,7 @@ fields in ip header
 - urgent pointer -> it indicates the next byte value after the urgent data
 - options -> these are variable length header fields
 
-![img](https://github.com/nitishsaini706/references-images/blob/reference/tcpheader.jpg)
+![img](https://github.com/nitishsaini706/references-images/blob/master/tcpheader.jpg)
 
 ### cookies and session id 
 - http is stateless client-server protocol , where client makes a request and server responds with data . The next request that comes is entirely new request , unrelated to previous request .
@@ -132,8 +132,8 @@ Browser -------GET (login ,ID , language)------> Server
 ## headers
 it is instructions with the get method and some info send to the server 
 
-![img](https://github.com/nitishsaini706/references-images/blob/reference/request_header.png)
-![img](https://github.com/nitishsaini706/references-images/blob/reference/response-headers.jpg)
+![img](https://github.com/nitishsaini706/references-images/blob/master/headers.png)
+![img](https://github.com/nitishsaini706/references-images/blob/master/response-headers.jpg)
 
 in response headers we see cache-control:private , max age=1670 , the browser has to implement the header , it's a client side control 
 
@@ -193,10 +193,10 @@ it helps in declaring content sources
 - certificate authority 
 - ssl/tls - now we use tls 1.3 version of tls
 
-![img](https://github.com/nitishsaini706/references/blob/reference/headers.png)
-![img](https://github.com/nitishsaini706/references-images/blob/reference/https%20key%201.png)
-![img](https://github.com/nitishsaini706/references-images/blob/reference/https%20key%202.png)
-![img](https://github.com/nitishsaini706/references-images/blob/reference/https%20keys3.png)
+![img](https://github.com/nitishsaini706/references/blob/master/headers.png)
+![img](https://github.com/nitishsaini706/references-images/blob/master/https%20key%201.png)
+![img](https://github.com/nitishsaini706/references-images/blob/master/https%20key%202.png)
+![img](https://github.com/nitishsaini706/references-images/blob/master/https%20keys3.png)
 
 
 ### tls handshake 
