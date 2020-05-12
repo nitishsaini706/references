@@ -84,7 +84,7 @@ fields in ip header
 - source address
 - dest address
 
-![img](https://github.com/nitishsaini706/references-images/blob/master/ip-header.gif
+![img](https://github.com/nitishsaini706/references-images/blob/master/ip-header.gif)
 ### tcp header
 
 - source port -> port traffic originated from on the sending side.
@@ -134,6 +134,7 @@ it is instructions with the get method and some info send to the server
 
 ![img](https://github.com/nitishsaini706/references-images/blob/master/headers.png)
 ![img](https://github.com/nitishsaini706/references-images/blob/master/response-headers.jpg)
+![img](https://github.com/nitishsaini706/references-images/blob/master/headers.png)
 
 in response headers we see cache-control:private , max age=1670 , the browser has to implement the header , it's a client side control 
 
@@ -193,10 +194,7 @@ it helps in declaring content sources
 - certificate authority 
 - ssl/tls - now we use tls 1.3 version of tls
 
-![img](https://github.com/nitishsaini706/references/blob/master/headers.png)
-![img](https://github.com/nitishsaini706/references-images/blob/master/https%20key%201.png)
-![img](https://github.com/nitishsaini706/references-images/blob/master/https%20key%202.png)
-![img](https://github.com/nitishsaini706/references-images/blob/master/https%20keys3.png)
+![img](https://github.com/nitishsaini706/references-images/blob/master/ssl-tls-handshake-process.png)
 
 
 ### tls handshake 
@@ -244,5 +242,8 @@ it helps in declaring content sources
 
 ### inital connection 
 when client makes request , then server send the certificate and send the prime numbers with this certificate and then client chooses one number ,and then client makes a private key and then take that prime number and then taking power of that private key and then dividing it with the other prime number and taking the mod of that number which is the encrypted key , and we send this number to the server and then server also make same process , it pics any number and do same thing and send the encrypted key to the client , anyone of the network can only see the encrypted key and the prime number but cannot see the prime numbers , but we can do the maths to get that private key to encrypt the session .
-img 
+
+![img](https://github.com/nitishsaini706/references-images/blob/master/https%20key%201.png)
+![img](https://github.com/nitishsaini706/references-images/blob/master/https%20key%202.png)
+![img](https://github.com/nitishsaini706/references-images/blob/master/https%20keys3.png)
 
