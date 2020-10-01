@@ -1,5 +1,5 @@
 ### html dom 
-- dom stands for document object model 
+- dom stands for document object model .
 
 - it is structured representation of html ,it is part of document .
 
